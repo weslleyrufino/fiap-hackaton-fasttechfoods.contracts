@@ -6,7 +6,7 @@ public record OrderItemEvent(Guid Id, Guid MenuItemId, int Quantity, decimal Uni
 public record OrderCreatedEvent
     (
         Guid Id,
-        string CustomerId,
+        Guid CustomerId,
         DateTime CreatedAt,
         EnumStatus Status,
         EnumDeliveryMethod DeliveryMethod,
