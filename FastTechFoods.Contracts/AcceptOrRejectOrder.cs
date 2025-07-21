@@ -5,5 +5,5 @@ public record AcceptOrRejectOrder
 (
     Guid Id,
     EnumStatus Status,
-    string CancellationReason
+    string? CancellationReason
 );
