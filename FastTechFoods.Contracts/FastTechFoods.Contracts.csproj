@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	
 	<PackageId>FastTechFoods.Contracts</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Authors>Weslley</Authors>
     <Company>FastTechFoods</Company>
   </PropertyGroup>
